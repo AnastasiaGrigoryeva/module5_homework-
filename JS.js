@@ -56,8 +56,32 @@ console.log(true);
 } else {console.log(false);}
 
 // Седьмое задание
+let zero=0;
+let zero1=1;
+let str=0;
+let countable=0;
+let uncountable=0;
 
-//- не знаю как делать 
+let arr=[0,1,2,3,4,5,6,7,8,9,10, null,'dog','cat','house']
+for(let i=0; i<arr.length, i++){
+    if( typeof (arr[i]) =='string') {
+        str++
+    } else if( typeof (arr(i) === null) {
+        zero1++
+    } else if( typeof (arr(i) === 0) {
+        zero++
+    } else if( arr(i)%2===0) {
+        countable++
+    } else {uncountable++}
+
+}
+
+console.log('Нулей в массиве' + zero);
+console.log('Нуллов в массиве' + zero1);
+console.log('Строк в массиве' + str);
+console.log('Четных  в массиве' + countable);
+console.log('Нечетных  в массиве' + uncountable);
+
 
 // Восьмое задание
 
